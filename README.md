@@ -2,6 +2,8 @@
 
 ***All parts of the program are complete (including extra credit). Enjoy using our Image Processor :)***
 
+***Use the available .jar file to run APP***
+
 #
 ## Extra Credit Changes
 ### Masking
