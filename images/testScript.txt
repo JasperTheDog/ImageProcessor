@@ -1,0 +1,11 @@
+load Mikey.ppm mikey 
+
+flip vertical mikey mikeyV
+
+darken 50 mikeyV mikeyVD
+
+filter sharpen mikeyVD mikeyVDS 
+
+tone sepia mikeyVDS mikeyVDSS
+
+q

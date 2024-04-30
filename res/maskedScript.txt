@@ -1,0 +1,108 @@
+load mikey.jpeg mikey
+load MaskedImages/mask.png mask
+
+greyscaleMask intensity mikey mikeyGrey mask
+save MaskedImages/mikeyMaskedGreyIntensity.png mikeyGrey
+
+greyscaleMask red mikey mikeyGrey mask
+save MaskedImages/mikeyMaskedGreyRed.png mikeyGrey
+
+greyscaleMask green mikey mikeyGrey mask
+save MaskedImages/mikeyMaskedGreyGreen.png mikeyGrey
+
+greyscaleMask blue mikey mikeyGrey mask
+save MaskedImages/mikeyMaskedGreyBlue.png mikeyGrey
+
+greyscaleMask luma mikey mikeyGrey mask
+save MaskedImages/mikeyMaskedGreyLuma.png mikeyGrey
+
+greyscaleMask luma mikey mikeyGrey mask
+save MaskedImages/mikeyMaskedGreyValue.png mikeyGrey
+
+toneMask sepia mikey mikeySepia mask
+save MaskedImages/mikeyMaskedSepia.png mikeySepia
+
+toneMask greyscale mikey mikeySepia mask
+save MaskedImages/mikeyMaskedGrey.png mikeySepia
+
+filterMask sharpen mikey mikeySharpen mask
+filterMask sharpen mikeySharpen mikeySharpen2 mask
+save MaskedImages/mikeyMaskedSharp.png mikeySharpen2
+
+
+filterMask blur mikey mikeySharpen mask
+filterMask blur mikeySharpen mikeySharpen2 mask
+save MaskedImages/mikeyMaskedBlur.png mikeySharpen2
+
+darkenMask 70 mikey mikeyDark mask
+save MaskedImages/mikeyMaskedDark.png mikeyDark
+
+brightenMask 70 mikey mikeyBright mask
+save MaskedImages/mikeyMaskedBright.png mikeyBright
+
+load Mikey.ppm mikey 
+
+flip vertical mikey flippedMikey
+
+save MikeyFlipVert.jpeg flippedMikey
+
+flip horizontal mikey flippedMikey
+
+save MikeyFlipHoriz.png flippedMikey
+
+brighten 50 mikey brightMikey
+
+save MikeyBright.jpeg brightMikey
+
+darken 50 mikey darkMikey
+
+save MikeyDark.png darkMikey
+
+greyscale red mikey mikeyRed
+
+save MikeyGreyScaleRed.jpeg mikeyRed
+
+greyscale green mikey mikeyGreen
+
+save MikeyGreyScaleGreen.jpeg mikeyGreen
+
+greyscale blue mikey mikeyBlue
+
+save MikeyGreyScaleBlue.jpeg mikeyBlue
+
+greyscale luma mikey mikeyLuma
+
+save MikeyGreyScaleLuma.jpeg mikeyLuma
+
+greyscale value mikey mikeyValue
+
+save MikeyGreyScaleValue.jpeg mikeyValue
+
+greyscale intensity mikey mikeyIntensity
+
+save MikeyGreyScaleIntensity.jpeg mikeyIntensity
+
+tone sepia mikey mikeySepia
+
+save MikeySepia.png mikeySepia
+
+tone greyscale mikey mikeyGrey
+
+save MikeyGrey.jpeg mikeyGrey
+
+filter blur mikey mikeyBlur1
+
+filter blur mikeyBlur1 mikeyBlur2
+
+filter blur mikeyBlur2 mikeyBlur3
+
+save MikeyBlur.png mikeyBlur3
+
+filter sharpen mikey mikeySharp1
+
+filter sharpen mikeySharp1 mikeySharp2
+
+save MikeySharp.jpeg mikeySharp2
+
+
+q
